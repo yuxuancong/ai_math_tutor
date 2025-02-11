@@ -1,0 +1,52 @@
+system:
+  version: "1.0.0"
+  environment: "development"
+  debug: true
+
+teaching:
+  knowledge_graph:
+    provider: "neo4j"
+    uri: "bolt://localhost:7687"
+    auth:
+      username: "neo4j"
+      password: "password"
+  
+  learning_path:
+    algorithm: "adaptive"
+    max_depth: 5
+    weights:
+      knowledge_weight: 0.4
+      difficulty_weight: 0.3
+      performance_weight: 0.3
+
+ai:
+  llm:
+    provider: "openai"
+    model: "gpt-4"
+    temperature: 0.7
+  
+  math_recognition:
+    provider: "mathpix"
+    timeout: 30
+    max_retries: 3
+  
+  symbolic:
+    engine: "sympy"
+    simplification_level: "advanced"
+
+data:
+  database:
+    type: "postgresql"
+    host: "localhost"
+    port: 5432
+    name: "ai_math_tutor"
+  
+  cache:
+    provider: "redis"
+    host: "localhost"
+    port: 6379
+  
+  storage:
+    type: "s3"
+    bucket: "ai-math-tutor"
+    region: "us-east-1" 
