@@ -1,7 +1,5 @@
 # AI 数学助教系统 ?
 
-> 基于 Python Flask 的智能数学题生成与答题系统，旨在为学生提供个性化的数学学习体验。
-
 ## ? 项目结构
 text
 ai_math_tutor/
@@ -25,8 +23,8 @@ ai_math_tutor/
 ├── README.md # 项目说明
 └── app.py # 应用入口
 
-## ? 功能特点
 
+## ? 功能特点
 - ? 智能生成数学题
 - ? 自动答案验证
 - ? 用户进度跟踪
@@ -34,21 +32,18 @@ ai_math_tutor/
 - ? 历史记录统计
 
 ## ? 技术栈
-
-- **后端框架：** Python Flask
-- **数据库：** PostgreSQL
-- **ORM：** SQLAlchemy
-- **认证：** JWT
-- **文档：** Swagger/OpenAPI
+- 后端框架：Python Flask
+- 数据库：PostgreSQL
+- ORM：SQLAlchemy
+- 认证：JWT
+- 文档：Swagger/OpenAPI
 
 ## ? 环境要求
-
 - Python 3.8+
 - PostgreSQL 12+
 - 依赖包要求见 requirements.txt
 
 ## ? 安装步骤
-
 1. **克隆项目**
    ```bash
    git clone https://github.com/你的用户名/ai_math_tutor.git
@@ -73,7 +68,6 @@ ai_math_tutor/
    ```sql
    CREATE DATABASE ai_math_tutor;
    ```
-   修改 `config/settings.py` 中的数据库配置
 
 5. **运行项目**
    ```bash
@@ -96,30 +90,6 @@ ai_math_tutor/
 | POST | `/api/v1/problems/verify` | 验证答案 |
 | GET | `/api/v1/problems/history` | 获取历史记录 |
 
-## ? 开发规范
-
-### 代码规范
-- 遵循 PEP 8 规范
-- 使用中文注释
-- 类名使用大驼峰
-- 函数名使用小驼峰
-- 变量名使用下划线
-
-### Git 规范
-| 类型 | 描述 |
-|------|------|
-| feat | 新功能 |
-| fix | 修复bug |
-| docs | 文档更新 |
-| style | 代码格式 |
-| test | 测试相关 |
-
-### 分支管理
-- `main`: 主分支，稳定版本
-- `dev`: 开发分支
-- `feature/*`: 功能分支
-- `fix/*`: 修复分支
-
 ## ? 团队分工
 
 ### 后端开发 (A, B, C)
@@ -136,7 +106,6 @@ ai_math_tutor/
 - 文档编写
 
 ## ? 项目进度
-
 - [x] 项目初始化
 - [x] 数据库配置
 - [ ] 用户系统
@@ -145,24 +114,20 @@ ai_math_tutor/
 - [ ] 测试完善
 
 ## ? 联系方式
-
 - **项目负责人：** xxx
 - **邮箱：** xxx@xxx.com
 - **微信群：** xxx
 
 ## ? 许可证
-
 MIT License
 
 ## ? 贡献指南
-
 1. Fork 项目
 2. 创建功能分支
 3. 提交更改
 4. 发起 Pull Request
 
 ## ? 更新日志
-
 ### v0.1.0 (2024-02-17)
 - 项目初始化
 - 基础框架搭建
