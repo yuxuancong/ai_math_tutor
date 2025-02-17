@@ -1,0 +1,25 @@
+2025-02-17 10:59:00,196 - app - ERROR - Database initialization failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-02-17 11:55:45,688 - app - ERROR - Database initialization failed: 'utf-8' codec can't decode byte 0xd6 in position 61: invalid continuation byte
+2025-02-17 11:56:46,525 - app - ERROR - Database initialization failed: 'utf-8' codec can't decode byte 0xd6 in position 61: invalid continuation byte
+2025-02-17 11:57:40,067 - app - ERROR - Database initialization failed: 'utf-8' codec can't decode byte 0xd6 in position 61: invalid continuation byte
+2025-02-17 11:59:19,542 - app - ERROR - Database initialization failed: 'utf-8' codec can't decode byte 0xd6 in position 61: invalid continuation byte
+2025-02-17 12:12:33,726 - app - ERROR - Database initialization failed: 'utf-8' codec can't decode byte 0xd6 in position 61: invalid continuation byte
+2025-02-17 12:14:41,116 - app - ERROR - Database initialization failed: 'utf-8' codec can't decode byte 0xd6 in position 61: invalid continuation byte
+2025-02-17 12:16:18,820 - app - ERROR - Database initialization failed: 'utf-8' codec can't decode byte 0xd6 in position 61: invalid continuation byte
+2025-02-17 12:17:03,981 - app - ERROR - Database initialization failed: 'utf-8' codec can't decode byte 0xd6 in position 61: invalid continuation byte
+2025-02-17 12:18:53,161 - app - ERROR - Database initialization failed: 'utf-8' codec can't decode byte 0xd6 in position 61: invalid continuation byte
+2025-02-17 12:19:39,366 - app - ERROR - Êý¾Ý¿â³õÊ¼»¯Ê§°Ü: 'utf-8' codec can't decode byte 0xd6 in position 61: invalid continuation byte
+2025-02-17 12:19:39,427 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.5.80.63:5000
+2025-02-17 12:19:39,427 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-17 12:19:39,430 - werkzeug - INFO -  * Restarting with stat
+2025-02-17 12:19:40,596 - app - ERROR - Êý¾Ý¿â³õÊ¼»¯Ê§°Ü: 'utf-8' codec can't decode byte 0xd6 in position 61: invalid continuation byte
+2025-02-17 12:19:40,632 - werkzeug - WARNING -  * Debugger is active!
+2025-02-17 12:19:40,638 - werkzeug - INFO -  * Debugger PIN: 696-203-495

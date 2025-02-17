@@ -1,0 +1,46 @@
+ai_math_tutor/
+©À©¤©¤ api/
+©¦   ©À©¤©¤ __init__.py
+©¦   ©À©¤©¤ middleware/
+©¦   ©¦   ©À©¤©¤ __init__.py
+©¦   ©¦   ©¸©¤©¤ auth.py
+©¦   ©¸©¤©¤ routes/
+©¦       ©À©¤©¤ __init__.py
+©¦       ©À©¤©¤ auth.py
+©¦       ©¸©¤©¤ math_problems.py
+©À©¤©¤ config/
+©¦   ©À©¤©¤ __init__.py
+©¦   ©¸©¤©¤ settings.py
+©À©¤©¤ core/
+©¦   ©À©¤©¤ __init__.py
+©¦   ©À©¤©¤ engines/
+©¦   ©¦   ©À©¤©¤ __init__.py
+©¦   ©¦   ©¸©¤©¤ ai_tutor.py
+©¦   ©À©¤©¤ models/
+©¦   ©¦   ©À©¤©¤ __init__.py
+©¦   ©¦   ©À©¤©¤ base.py
+©¦   ©¦   ©À©¤©¤ user.py
+©¦   ©¦   ©À©¤©¤ math_problem.py
+©¦   ©¦   ©À©¤©¤ progress.py
+©¦   ©¦   ©¸©¤©¤ mistake_collection.py
+©¦   ©¸©¤©¤ services/
+©¦       ©À©¤©¤ __init__.py
+©¦       ©À©¤©¤ user_service.py
+©¦       ©À©¤©¤ math_problem_service.py
+©¦       ©À©¤©¤ progress_service.py
+©¦       ©¸©¤©¤ mistake_service.py
+©À©¤©¤ infrastructure/
+©¦   ©À©¤©¤ __init__.py
+©¦   ©À©¤©¤ database/
+©¦   ©¦   ©À©¤©¤ __init__.py
+©¦   ©¦   ©¸©¤©¤ connection.py
+©¦   ©¸©¤©¤ cache/
+©¦       ©À©¤©¤ __init__.py
+©¦       ©¸©¤©¤ redis_client.py
+©À©¤©¤ ui/
+©¦   ©À©¤©¤ components/
+©¦   ©¸©¤©¤ pages/
+©À©¤©¤ utils/
+©¦   ©¸©¤©¤ __init__.py
+©À©¤©¤ app.py
+©¸©¤©¤ requirements.txt
